@@ -1,0 +1,451 @@
+/*sto font*/
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../vendor/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../vendor/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../vendor/fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BEBAS';
+    src: url('../vendor/fonts/BEBAS.ttf') format('truetype');
+}
+
+
+/*eno font*/
+
+body {
+    width: 100%;
+    font-family: 'OpenSans-Regular';
+    background-image: url("../vendor/images/texture.png");
+    background-repeat: none;
+     overflow-x:hidden;
+}
+
+a, a:hover {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+h4{
+    font-family: 'OpenSans-Bold';
+    font-size: 17px;
+}
+h3{
+  font-family: 'OpenSans-Bold';
+  font-size: 22px;
+}
+
+/*sto header*/
+
+.header-container .top-menu {
+    background-color: #000;
+    height: 65px;
+    border-bottom: 1px solid #000;
+}
+
+.line {
+    color: #fff;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+.right-top {
+    padding-top: 34px;
+}
+
+.sign-padding {
+    border-right: 1px solid #fff;
+    padding-right: 8px;
+}
+
+.signUp-padding {
+    padding-left: 5px;
+}
+
+
+/*sto second menu bar*/
+
+.sub-menu {
+    margin-top: 65Px;
+    color: #000;
+}
+
+.sub-menu-item {
+    padding-top: 15px;
+    color: #000;
+}
+
+.sub-menu-item .nav a {
+    color: #000;
+}
+
+
+/*eno menu bar*/
+
+
+/*eno header*/
+
+
+/* landing page body section*/
+
+.banner-section {
+    background-image: url("../vendor/images/masthead.png");
+    height: 500px;
+}
+.body-section{
+  margin-top: 125px;
+}
+.body-tittle {
+    color: #fff;
+    font-family: 'OpenSans-Bold';
+    font-size: 24px;
+    margin-top: 140px;
+}
+
+.fixture-tittle {
+    color: #fff;
+    font-family: 'OpenSans-Bold';
+    font-size: 24px;
+}
+
+.red-color {
+    color: red;
+}
+
+.content-section .col-md-9 {
+    background-color: #fff;
+    height: 530px;
+    margin-right: 10px;
+    width: 74%;
+    display: block;
+}
+
+.content-section .col-md-3 {
+    background-color: #fff;
+    height: 530px;
+    padding: 20px;
+}
+
+.box-top {
+    margin-top: 10px;
+}
+
+.fixture-section .box1 {
+    background-color: #fff;
+    height: 350px;
+    margin-right: 15px;
+    width: 368px;
+
+}
+.fixture-section .box2 {
+    background-color: #fff;
+    height: 350px;
+    /*margin-right: 15px;*/
+    width: 368px;
+
+}
+.fixture-section .box3{
+  background-color: #fff;
+  height: 350px;
+  margin-left: 15px;
+  width: 368px;
+}
+
+
+.btn {
+    position: relative;
+    padding-top: 0px;
+    font-size: 14px;
+}
+
+.btn .btn-primary {
+    position: relative;
+    background-color: #000;
+}
+
+.logo {
+    margin-left: 120px;
+    padding-top: 13px;
+    position: absolute;
+}
+
+.contentbox1 p{
+  font-family: 'OpenSans-Bold';
+  font-size: 30px;
+  font-weight: bold;
+}
+.contentbox2 p{
+  font-family: 'OpenSans-Bold';
+  font-size: 17px;
+  font-weight: 200px;
+  line-height: 7px;
+
+}
+
+.contentbox3 p{
+  font-family: 'OpenSans-Bold';
+  font-size:10px;
+  border-bottom: 1px solid gray;
+  width: 28%;
+}
+.more a{
+  margin-left: 270px;
+  color:red;
+}
+
+.batsman-banner{
+
+  background-color: #fff;
+  height:280px;
+  width:750px;
+}
+.batsman-banner .image-sec{
+  width: 375px;
+  float:left;
+  padding: 10px;
+}
+.batsman-banner .content-sec{
+  width: 375px;
+  float: left;
+}
+
+/*.batsman-banner,.col-md-8,.col-md-6{
+  padding-left: 224px;
+  border: none;
+  width:200px;
+}*/
+
+footer{
+  width: 100%;
+  min-height:300px;
+  background-color: #000;
+  color:#fff;
+
+
+  /*margin-left: 32px;*/
+}
+
+.footer-content{
+  margin-top: 40px;
+  min-height:200px;
+
+}
+.foorer-border{
+  border-left: 1px solid gray;
+}
+.footer-section ,ul,li{
+
+  list-style: none;
+  line-height: 25px;
+}
+.footer-header{
+  color:red;
+}
+/*.footer-border{
+  padding-top:10px;
+  border-left: 1px solid gray;
+}*/
+/*eno landing page body section*/
+
+
+/*sto game page*/
+.left-section{
+  padding: 10px;
+  /*margin-top: 50px;*/
+  min-height:700px;
+  border: 20px solid green;
+
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+.left-section .second-tittle{
+  padding-left: 40px;
+}
+.fantasy-sectionone .col-md-4{
+  height:70px;
+}
+
+.fantasy-sectiontwo .col-md-8 .col-md-2 .btn-group-justified > .btn-group .btn {
+    font-size: 12px;
+    width: 100%;
+    line-height: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+
+}
+
+.btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child, .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.fantasy-sectionThree{
+min-height:70px;
+}
+.fantasy-sectionFour .col-md-4{
+  border: 1px solid #f4ecec;
+  font-weight: bold;
+
+  min-height:150px;
+}
+.innerbox1 p{
+  display: inline;
+}
+.innerbox1 .btn-primary{
+  background-color: #000;
+  color:#fff;
+
+}
+.innerbox2 p{
+  padding-top: 10px;
+
+}
+/*right section section*/
+.right-section{
+  padding: 10px;
+  /*margin-top: 50px;*/
+  width: 260px;
+  margin-left: 10px;
+  background-color: #fff;
+  min-height:912px;
+}
+.sub-nav{
+  margin-top: 50px;
+}
+.left-innerbox1{
+  border: 1px solid #f4ecec;
+  min-height:200px;
+  width: 238px;
+}
+
+ .left-innerbox1 .left-image-section .image-logo{
+   width: 70px;
+   height:70px;
+
+ }
+
+ .left-image-section{
+   padding-left: 75px;
+ }
+
+ .left-innerbox2 p{
+   font-family: 'OpenSans-Bold';
+   font-size: 25px;
+ }
+
+ .left-innerbox3 p{
+   font-family: 'OpenSans-Semibold';
+   font-size: 14px;
+
+ }
+.glyphicon-menu-right{
+  color:red;
+}
+
+.button-section{
+  margin-bottom: 0px;
+}
+.edit{
+  border-radius: 0px;
+}
+
+.button-section .btn{
+  padding-top: 7px;
+  width: 116px;
+
+}
+
+.match-section1{
+    border: 1px solid #f4ecec;
+    height: 113px;
+
+}
+.score p{
+  line-height: 30px;
+  font-family: 'OpenSans-Bold';
+  font-size: 25px;
+}
+.match-section1 .col-md-4 ,.col-md-8{
+  border: 1px solid #f4ecec;
+  height: 50px;
+}
+.buildteam-innersection .col-md-4, .col-md-8{
+  border: 1px solid #f4ecec;
+  height: 50px;
+}
+.dropdown-section{
+  height:80px;
+  border: 1px solid #f4ecec;
+}
+.action .col-md-12{
+  padding-top: 5px;
+  height:30px;
+  border:1px solid #f4ecec;
+}
+/*.new-player{
+  border: 1px solid #f4ecec;
+  height:80px;
+}*/
+/*end fantasy*/
+/*sto joinleagues */
+.left-pannel .col-md-4{
+    border:1px solid #f4ecec;
+    min-height:180px;
+    padding: 10px;
+}
+.left-pannel .col-md-4 .col-md-6 ,.col-md-12{
+  padding-left: 0px;
+  padding-right: 0px
+}
+.button-left{
+  margin-left: 27px;
+}
+.sub-header{
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  width: 100%;
+height:150px;
+    background-image: url("../vendor/images/playertab.png");
+}
+/*.sub-nav-header .col-md-4 ,.col-md-8{
+  padding-left: 0px;
+  padding-top: 10px;
+  border: none;
+  color:#fff;
+  font-size: 10px;
+}
+.sub-nav-header .col-md-8{
+  border:none;
+}
+.sub-nav-header .sub ,h5{
+      padding-left: 39px;
+      color:#fff;
+}
+.sub-nav-header .sub2 ,h6{
+  padding-left: 21px;
+  color: #fff;
+  padding-right: 0px;
+}*/
+/*eno joinleagues*/
